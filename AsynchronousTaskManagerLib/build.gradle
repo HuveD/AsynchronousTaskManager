@@ -1,0 +1,30 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group = 'kr.co.huve'
+
+android {
+    compileSdkVersion androidVersions.compileSdkVersion
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        minSdkVersion androidVersions.minSdkVersion
+        targetSdkVersion androidVersions.targetSdkVersion
+        versionCode projectConfig.versionCode
+        versionName projectConfig.versionName
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation dependenciesList.supportAppcompat
+    implementation dependenciesList.supportAnnotations
+}
