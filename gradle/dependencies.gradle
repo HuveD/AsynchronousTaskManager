@@ -1,15 +1,15 @@
 ext {
     projectConfig = [
-            versionCode: 2,
-            versionName: '1.1.0'
+            versionCode: 3,
+            versionName: '1.1.1'
     ]
 
     androidVersions = [
             // android 4.0
             minSdkVersion    : 14,
-            // android 10.0
+            // android 9.0
             targetSdkVersion : 28,
-            // android 10.0
+            // android 9.0
             compileSdkVersion: 28,
             // build tools version
             buildToolsVersion: '28.0.3'

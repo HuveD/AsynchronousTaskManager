@@ -15,6 +15,7 @@ If you don't want to share, it can do that, also.
 
 ## :notebook:Table of Contents
 1. [Quick Start](#quick-start)
+	1. [Gradle](#gradle-setup)
 3. [Simple Usage](#simple-usage)
 2. [Example Source](#example-source)
 4. [License](#free)
@@ -27,13 +28,13 @@ Add the library to your Android project, then check out the examples below!
 
 ### Gradle Setup
 
-```gradle
+```gradle-setup
 repositories {
     maven { url 'https://jitpack.io' }
 }
 
 dependencies {
-    implementation 'kr.co.huve:AsynchronousTaskManager:v1.1.0'
+    implementation 'com.github.HuveD:AsynchronousTaskManager:1.1.1'
 }
 ```
 
