@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ATM Example</string>
+    <string name="info">Touch the screen. You can show the task state.</string>
+    <string name="defaultUse">DefaultUse</string>
+    <string name="changeUiAfterFinished">change Ui after the task finished</string>
+    <string name="stateChangeEvent">Use state change event</string>
+    <string name="detectError">Detect error</string>
+    <string name="getResult">Get the result value</string>
+</resources>
