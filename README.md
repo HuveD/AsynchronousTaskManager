@@ -1,7 +1,7 @@
 ![Title](https://user-images.githubusercontent.com/48434145/71309308-d439ed00-2449-11ea-80ae-540b500dfe3e.png)
 
-![ReleaseVer](https://user-images.githubusercontent.com/48434145/71309272-64c3fd80-2449-11ea-9166-36e998e69a52.png)
-![AndroidMinVer](https://user-images.githubusercontent.com/48434145/71309273-668dc100-2449-11ea-8e63-6d65beb92d44.png)
+![ReleaseVer](https://img.shields.io/badge/Release-1.1.1-blueviolet)
+![AndroidMinVer](https://img.shields.io/badge/API-14+-ff69b4)
 
 :star2: 'AsynchronousTaskManager' called 'ATM' by omitting is a background task helper.
 
