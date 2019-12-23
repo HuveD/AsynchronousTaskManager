@@ -66,7 +66,7 @@ If you invoke **'#active()'**, this task will start.
 
 <h2 id="example-source">:eyes: Example Source</h2>
 
-If you want more details, look at the look at the [source code](https://github.com/JeongHyeonYoo/AsynchronousTaskManager/blob/master/AsynchronousTaskManagerExample/src/main/java/kr/co/huve/TaskManagerExample/ExampleActivity.java).
+If you want more details, look at the [source code](https://github.com/JeongHyeonYoo/AsynchronousTaskManager/blob/master/AsynchronousTaskManagerExample/src/main/java/kr/co/huve/TaskManagerExample/ExampleActivity.java).
 
 The source code has an example of usage, like below.
 - Perform another action after the task is finished
